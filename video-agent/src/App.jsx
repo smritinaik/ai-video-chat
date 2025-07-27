@@ -10,8 +10,8 @@ const createConversation = async () => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        replica_id: "r4317e64d25a",
-        persona_id: "p16f7857c422"
+        replica_id: "pc67a5ec42fd",
+        persona_id: "r6ae5b6efc9d"
       }),
     });
 
