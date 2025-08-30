@@ -10,8 +10,8 @@ const createConversation = async () => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        replica_id: "pc67a5ec42fd",
-        persona_id: "r6ae5b6efc9d"
+        replica_id: "r6ae5b6efc9d",
+        persona_id: "p1b06420cfdc"
       }),
     });
 
@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>AI Video Chat Platform</h1>
+      <h1>Ask your AI study assitant</h1>
       <button onClick={joinConversation} disabled={loading}>
         {loading ? "Joining..." : "JOIN CALL"}
       </button>
